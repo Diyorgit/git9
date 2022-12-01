@@ -1,0 +1,222 @@
+.cofe__container {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 159px;
+}
+
+.coffe-top__list {
+    max-width: 255px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #83888F;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.coffe-top__title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #0E8784;
+    margin-right: 28.5px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+.coffe-top__title1 {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+.coffe__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coffe-top__right-title {
+    margin-bottom: 56px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888F;
+}
+
+.coffe-top__block-title {
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333D4B;
+    margin-bottom: 24px;
+}
+
+.coffe-top__block-text {
+    max-width: 172px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
+
+.coffe__1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.coffe-top__right-block {
+    background: #F4F1EB;
+    border-radius: 8px;
+    padding: 32px 28px 84px 28px;
+    margin-right: 23px;
+}
+
+.coffe-top__right-block:hover {
+    background: #0E8784;
+    border-radius: 8px;
+    color: #FEFCF7;
+}
+
+.coffe__2 {
+    display: flex;
+    justify-content: end;
+}
+
+.coffe-top__right-title1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #83888F;
+    margin-top: 88px;
+    margin-bottom: 56px;
+}
+
+.coffe-top__right {
+    max-width: 730px;
+    margin-left: auto;
+}
+
+@media screen and(max-width:689px) {
+    .coffe-top__left {
+        display: none;
+    }
+
+    .coffe-top__right-title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 48px;
+
+        color: #83888F;
+    }
+
+    .coffe-top__right-title1 {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 48px;
+
+        color: #83888F;
+    }
+
+    .coffe-top__block-title {
+        font-family: 'Fraunces 9pt';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color: #333D4B;
+    }
+
+    .coffe-top__block-text {
+
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+
+    }
+}
+
+@media screen and (max-width:550px) {
+    .coffe__2 {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .coffe__item {
+        display: inline;
+    }
+
+    .coffe-top__right-block {
+        margin-bottom: 20px;
+    }
+
+    .coffe__1 {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .coffe-top__block-text {
+        font-family: "Barlow";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #333D4B;
+        max-width: 217px;
+    }
+}
+
+.cofe-top__span {
+    color: #0E8784;
+}
+
+.coffe-top__box {
+    margin-top: 88px;
+    background: #2C343E;
+    padding: 27px 64px;
+    margin-bottom: 40px;
+}
+
+.coffe-top__box-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    margin-bottom: 8px;
+}
+
+.coffe-top__box-text {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.coffe-top__btn {
+    background: #66D2CF;
+    border-radius: 6px;
+    border: none;
+    padding: 15px 35px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+}

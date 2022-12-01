@@ -1,0 +1,140 @@
+.main__span {
+    margin-top: 91px;
+    max-width: 760px;
+    border: 2px solid #FDD6BA;
+    background-color: #FDD6BA;
+}
+
+.section__span {
+    display: inline-block;
+    border: 2px solid #0E8784;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    top: 0;
+}
+
+.main__container {
+    max-width: 1280px;
+    background: #2C343E;
+    border-radius: 10px;
+    padding: 100px 150px 99px 85px;
+}
+
+.span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 760px;
+    margin-bottom: 67px;
+}
+
+.main__block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    margin-bottom: 38px;
+}
+
+.main__title1 {
+    width: 255px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FEFCF7;
+    margin-bottom: 42px;
+}
+
+.main__text {
+    max-width: 285px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
+
+@media screen and (max-width:750px) {
+    .main__span {
+        margin-top: 97px;
+        max-width: 466px;
+        border: 2px solid #FDD6BA;
+        background-color: #FDD6BA;
+    }
+
+    .main__title {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 72px;
+        color: #FDD6BA;
+        width: 137px;
+    }
+
+    .main__title1 {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+
+    .main__text {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        max-width: 223px;
+        width: 140px;
+    }
+
+    .main__container {
+        padding: 97px 39px 70px 40px;
+        max-width: 856px;
+    }
+
+    .span {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 466px;
+        margin-bottom: 67px;
+    }
+
+}
+
+@media screen and (max-width:620px) {
+    .main__span {
+        display: none;
+    }
+
+    .section__span {
+        display: none;
+    }
+
+    .main__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:580px) {
+    .site-header__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FEFCF7;
+        opacity: 0.8;
+    }
+}
